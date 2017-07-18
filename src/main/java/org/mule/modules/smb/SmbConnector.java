@@ -216,6 +216,11 @@ public class SmbConnector {
 			return new ByteArrayInputStream(sBytes);
 			
 		} catch (Exception e) {
+			
+			try {
+				if(inFile != null)
+					inFile.close();
+			} catch (IOException ignored) {}
 			_logger.error("Could not read the file=> "+sFile.getPath(), e);	
 		}
 		
