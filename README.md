@@ -1,7 +1,7 @@
 # samba-connector
 
 This Connector can be usd by any MuleSoft client unlike the one at https://github.com/mulesoft-consulting/mule-smb-connector.
-Please let me (aminul.haque@mulesoft.com) know if you would like any new processors (features) to be added on his connector.
+Please let me (aminul.haque@mulesoft.com) know if you would like any new processors (features) to be added on this connector.
 
 ## Following are the current capabilities of this connector:
 - **saveFileFromStream:** This method will save a file in a file location.
